@@ -37,7 +37,7 @@ names(Sujeitos) <- "subject"
 
 # building the tidy Dataset
 Tabela1 <- cbind(Sujeitos, Nomes, Dados)
-write.table(Tabela1, "Tabela1.txt")
+write.table(Tabela1, "Tabela1.txt", row.name=FALSE)
 
 # building the tidy Dataset with the average for each unique variable and subject
 UnicosSujeitos = unique(Sujeitos)[,1]
@@ -57,7 +57,7 @@ for (sub in 1:NumeroSujeitos) {
   }
 }
 
-write.table(Tabela2, "Tabela2.txt")
+write.table(Tabela2, "Tabela2.txt", row.name=FALSE)
 
 # end of code
 
