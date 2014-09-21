@@ -1,5 +1,5 @@
-## Repo for Project "Getting and Cleaning Data
-"
+## Repo for Project - Getting and Cleaning Data
+
 
 ### Codebook.MD - variables used in the code.
 

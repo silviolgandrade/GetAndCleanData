@@ -15,7 +15,7 @@ Tabela2.txt - the tidy dataset with the average values of each variable for each
 Into the script .R file there are information for each step in the processing.
 
 
-Variables used in this script:
+### Variables used in this script:
 
 DadosTeste - toc of test/X_test.txt
 
